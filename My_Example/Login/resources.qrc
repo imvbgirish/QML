@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Login">
+        <file>pics/watch.png</file>
+        <file>fonts/RobotoSlab-VariableFont_wght.ttf</file>
+    </qresource>
+</RCC>
