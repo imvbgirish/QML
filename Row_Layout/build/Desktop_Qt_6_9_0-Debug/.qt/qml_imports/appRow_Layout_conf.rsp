@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout
+-cmake-output
+-output-file
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appRow_Layout_conf.cmake
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/Row_Layout
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_Row_Layout.qrc
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appRow_Layout_raw_qml_0.qrc

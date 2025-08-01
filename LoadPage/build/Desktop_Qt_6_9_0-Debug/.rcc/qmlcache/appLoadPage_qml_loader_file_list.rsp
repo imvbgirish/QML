@@ -1,0 +1,11 @@
+--resource
+/home/girish-v-b/CPP/QML/Session_1/LoadPage/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_LoadPage.qrc
+--resource
+/home/girish-v-b/CPP/QML/Session_1/LoadPage/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appLoadPage_raw_qml_0.qrc
+/LoadPage/main.qml
+/LoadPage/page1.qml
+/LoadPage/page2.qml
+/LoadPage/page3.qml
+/LoadPage/page4.qml
+/LoadPage/page5.qml
+/LoadPage/CustomButton.qml

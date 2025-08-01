@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Example2/">
+    <file alias="main.qml">/home/girish-v-b/cQML/Example2/main.qml</file>
+  </qresource>
+</RCC>
+

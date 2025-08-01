@@ -1,0 +1,15 @@
+--bare
+-I
+/home/girish-v-b/CPP/QML/Session_1/Loader/build/Desktop_Qt_6_9_0-Debug
+-I
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Loader/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_Loader.qrc
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Loader/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appLoader_raw_qml_0.qrc
+/home/girish-v-b/CPP/QML/Session_1/Loader/main.qml
+/home/girish-v-b/CPP/QML/Session_1/Loader/page1.qml
+/home/girish-v-b/CPP/QML/Session_1/Loader/page2.qml
+/home/girish-v-b/CPP/QML/Session_1/Loader/page3.qml
+/home/girish-v-b/CPP/QML/Session_1/Loader/page4.qml
+/home/girish-v-b/CPP/QML/Session_1/Loader/page5.qml

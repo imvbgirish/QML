@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout
+-cmake-output
+-output-file
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appMy_GridLayout_build.cmake
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug/My_GridLayout
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_My_GridLayout.qrc
+/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appMy_GridLayout_raw_qml_0.qrc

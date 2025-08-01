@@ -1,0 +1,4 @@
+module Loader
+typeinfo appLoader.qmltypes
+prefer :/Loader/
+

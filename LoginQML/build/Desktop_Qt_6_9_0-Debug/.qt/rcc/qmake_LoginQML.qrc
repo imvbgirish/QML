@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/LoginQML">
+    <file alias="qmldir">/home/girish-v-b/cQML/LoginQML/build/Desktop_Qt_6_9_0-Debug/LoginQML/qmldir</file>
+  </qresource>
+</RCC>
+

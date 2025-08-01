@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/CPP/QML/Session_1/My_Layout
+-cmake-output
+-output-file
+/home/girish-v-b/CPP/QML/Session_1/My_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appMy_Layout_conf.cmake
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/My_Layout/build/Desktop_Qt_6_9_0-Debug/My_Layout
+-importPath
+/home/girish-v-b/CPP/QML/Session_1/My_Layout/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/CPP/QML/Session_1/My_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_My_Layout.qrc
+/home/girish-v-b/CPP/QML/Session_1/My_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appMy_Layout_raw_qml_0.qrc

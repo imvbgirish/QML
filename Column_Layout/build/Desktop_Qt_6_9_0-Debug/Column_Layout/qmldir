@@ -1,0 +1,4 @@
+module Column_Layout
+typeinfo appColumn_Layout.qmltypes
+prefer :/Column_Layout/
+

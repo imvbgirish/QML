@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 239,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 29
+                    }
+                ],
+                "filepath": "/home/girish-v-b/CPP/QML/Session_1/Column_Layout/main.qml"
+            }
+        ],
+        "moduleId": "Column_Layout(appColumn_Layout)"
+    }
+]

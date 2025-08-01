@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/session1/">
+    <file alias="main.qml">/home/girish-v-b/CPP/QML/Session_1/session1/main.qml</file>
+  </qresource>
+</RCC>
+

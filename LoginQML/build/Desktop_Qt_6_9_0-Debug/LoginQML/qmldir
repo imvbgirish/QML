@@ -1,0 +1,4 @@
+module LoginQML
+typeinfo appLoginQML.qmltypes
+prefer :/LoginQML/
+

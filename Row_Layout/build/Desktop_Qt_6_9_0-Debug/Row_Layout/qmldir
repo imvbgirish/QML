@@ -1,0 +1,4 @@
+module Row_Layout
+typeinfo appRow_Layout.qmltypes
+prefer :/Row_Layout/
+

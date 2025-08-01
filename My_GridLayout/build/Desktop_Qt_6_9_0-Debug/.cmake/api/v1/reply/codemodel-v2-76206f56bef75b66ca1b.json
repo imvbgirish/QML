@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a62efd5fd90adeeca9f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "My_GridLayout",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-3a0a29be613eea913ac1.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-816ef0d5baae57349865.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-0c9b72a3016f731504c5.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-0d842e4a75d53f200813.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-c397c5479342bd7df4f2.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout-Debug-2c7e220cbb912c517600.json",
+					"name" : "appMy_GridLayout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_autogen-Debug-ed0dfde61b58af579999.json",
+					"name" : "appMy_GridLayout_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_autogen_timestamp_deps-Debug-cc570db255058c0a7e32.json",
+					"name" : "appMy_GridLayout_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_copy_qml-Debug-5ef0807bf7a3405ebbec.json",
+					"name" : "appMy_GridLayout_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_copy_res-Debug-f01e6c179e772053f600.json",
+					"name" : "appMy_GridLayout_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_qmlimportscan-Debug-2687df2c38510b10e671.json",
+					"name" : "appMy_GridLayout_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_qmllint-Debug-7b7077257db5d3c5d1b7.json",
+					"name" : "appMy_GridLayout_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_qmllint_json-Debug-9d3a2538fc5fb64386b9.json",
+					"name" : "appMy_GridLayout_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_qmllint_module-Debug-4b1cc4de5111d92b9dbe.json",
+					"name" : "appMy_GridLayout_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMy_GridLayout_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMy_GridLayout_qmltyperegistration-Debug-0d331aa023df0bb15e57.json",
+					"name" : "appMy_GridLayout_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appMy_GridLayout_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appMy_GridLayout_aotstats_target-Debug-9f3fc4cddb84046824e9.json",
+					"name" : "module_appMy_GridLayout_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/build/Desktop_Qt_6_9_0-Debug",
+		"source" : "/home/girish-v-b/CPP/QML/Session_1/My_GridLayout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

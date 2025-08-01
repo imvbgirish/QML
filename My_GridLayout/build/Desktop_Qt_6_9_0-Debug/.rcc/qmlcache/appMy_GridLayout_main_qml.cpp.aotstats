@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 51
+                    }
+                ],
+                "filepath": "/home/girish-v-b/CPP/QML/Session_1/My_GridLayout/main.qml"
+            }
+        ],
+        "moduleId": "My_GridLayout(appMy_GridLayout)"
+    }
+]

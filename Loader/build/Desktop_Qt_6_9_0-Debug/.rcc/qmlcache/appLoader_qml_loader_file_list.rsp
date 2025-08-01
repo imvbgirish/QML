@@ -1,0 +1,10 @@
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Loader/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_Loader.qrc
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Loader/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appLoader_raw_qml_0.qrc
+/Loader/main.qml
+/Loader/page1.qml
+/Loader/page2.qml
+/Loader/page3.qml
+/Loader/page4.qml
+/Loader/page5.qml

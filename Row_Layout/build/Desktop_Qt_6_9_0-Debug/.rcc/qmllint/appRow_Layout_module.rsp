@@ -1,0 +1,10 @@
+-I
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug
+-I
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_Row_Layout.qrc
+--resource
+/home/girish-v-b/CPP/QML/Session_1/Row_Layout/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appRow_Layout_raw_qml_0.qrc
+--module
+Row_Layout

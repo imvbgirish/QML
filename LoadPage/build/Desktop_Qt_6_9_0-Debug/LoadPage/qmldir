@@ -1,0 +1,5 @@
+module LoadPage
+typeinfo appLoadPage.qmltypes
+prefer :/LoadPage/
+CustomButton 1.0 CustomButton.qml
+

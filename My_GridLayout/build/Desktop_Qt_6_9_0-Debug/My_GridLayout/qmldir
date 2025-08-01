@@ -1,0 +1,4 @@
+module My_GridLayout
+typeinfo appMy_GridLayout.qmltypes
+prefer :/My_GridLayout/
+

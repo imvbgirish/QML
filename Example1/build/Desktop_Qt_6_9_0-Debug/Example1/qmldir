@@ -1,0 +1,4 @@
+module Example1
+typeinfo appExample1.qmltypes
+prefer :/Example1/
+
