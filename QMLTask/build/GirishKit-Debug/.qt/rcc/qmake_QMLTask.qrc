@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QMLTask">
+    <file alias="qmldir">/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/QMLTask/qmldir</file>
+  </qresource>
+</RCC>
+

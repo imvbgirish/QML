@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4cd26d22ee9037e43c8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LoginApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-02ac928e8ca4ae408eb3.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-c92712c09eb0f6c46b19.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-50d83dbcdc0f0e45763e.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-dcda28accf412f733e79.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-bf7d572fb53cb18169e2.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp-Debug-bc4f9041ee57e44183f9.json",
+					"name" : "appLoginApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_autogen-Debug-8185c9d989ceda3ee304.json",
+					"name" : "appLoginApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_autogen_timestamp_deps-Debug-a14b25427578dbbee56e.json",
+					"name" : "appLoginApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_copy_qml-Debug-343b60d00aa1c9142a5a.json",
+					"name" : "appLoginApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_copy_res-Debug-8ce2341c2e3406652d97.json",
+					"name" : "appLoginApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_qmlimportscan-Debug-5b3e2ed416024677f214.json",
+					"name" : "appLoginApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_qmllint-Debug-f2fa6cf62e13fc875d1d.json",
+					"name" : "appLoginApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_qmllint_json-Debug-5856a91294408ecba6b9.json",
+					"name" : "appLoginApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_qmllint_module-Debug-0d554e35bd144b0b720e.json",
+					"name" : "appLoginApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLoginApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLoginApp_qmltyperegistration-Debug-186ea057c1b831811063.json",
+					"name" : "appLoginApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appLoginApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appLoginApp_aotstats_target-Debug-fca08ac4cbf660b7096a.json",
+					"name" : "module_appLoginApp_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug",
+		"source" : "/home/girish-v-b/cQML/LoginApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

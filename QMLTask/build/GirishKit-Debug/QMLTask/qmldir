@@ -1,0 +1,10 @@
+module QMLTask
+typeinfo appQMLTask.qmltypes
+prefer :/QMLTask/
+CustomButton 1.0 CustomButton.qml
+Button1 1.0 Button1.qml
+MainMenu 1.0 MainMenu.qml
+Button2 1.0 Button2.qml
+Button3 1.0 Button3.qml
+Button4 1.0 Button4.qml
+

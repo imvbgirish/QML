@@ -43,11 +43,9 @@ void Login::setPassword(const QString &newPassword)
 void Login::onUserNameChanged()
 {
     qDebug() << Q_FUNC_INFO << "Username: " << m_username;
-
 }
 
 void Login::onPasswordChanged()
 {
     qDebug() << Q_FUNC_INFO << "Password: " << m_password;
-
 }

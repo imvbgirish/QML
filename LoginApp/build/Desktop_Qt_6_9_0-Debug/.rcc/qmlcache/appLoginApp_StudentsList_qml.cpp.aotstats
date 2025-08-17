@@ -1,0 +1,108 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 891,
+                        "errorMessage": "Cannot access value for name studentModel",
+                        "functionName": "model",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "header",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "delegate",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "Cannot access value for name studentView",
+                        "functionName": "width",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 333,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 437,
+                        "errorMessage": "Cannot access value for name studentName",
+                        "functionName": "text",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 419,
+                        "errorMessage": "Cannot access value for name fatherName",
+                        "functionName": "text",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 317,
+                        "errorMessage": "Cannot access value for name email",
+                        "functionName": "text",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 437,
+                        "errorMessage": "Cannot access value for name phoneNumber",
+                        "functionName": "text",
+                        "line": 58
+                    }
+                ],
+                "filepath": "/home/girish-v-b/cQML/LoginApp/StudentsList.qml"
+            }
+        ],
+        "moduleId": "LoginApp(appLoginApp)"
+    }
+]

@@ -1,0 +1,9 @@
+module LoginApp
+typeinfo appLoginApp.qmltypes
+prefer :/LoginApp/
+Register 1.0 Register.qml
+Login 1.0 Login.qml
+HomePage 1.0 HomePage.qml
+StudentsList 1.0 StudentsList.qml
+Header 1.0 Header.qml
+

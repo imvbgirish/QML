@@ -1,0 +1,10 @@
+--resource
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_LoginApp.qrc
+--resource
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appLoginApp_raw_qml_0.qrc
+/LoginApp/main.qml
+/LoginApp/Register.qml
+/LoginApp/Login.qml
+/LoginApp/HomePage.qml
+/LoginApp/StudentsList.qml
+/LoginApp/Header.qml

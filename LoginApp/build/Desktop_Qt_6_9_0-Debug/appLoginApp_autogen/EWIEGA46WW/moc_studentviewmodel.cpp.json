@@ -1,0 +1,82 @@
+{
+    "classes": [
+        {
+            "className": "StudentViewModel",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "studentName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "fatherName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "password",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "confirmPassword",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "addStudentToList",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "phoneNumber",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "password",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "checkLoginData",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "StudentViewModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "registrationSuccess",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "loginSuccess",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "studentviewmodel.h",
+    "outputRevision": 69
+}

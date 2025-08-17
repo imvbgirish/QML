@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 119,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 14
+                    }
+                ],
+                "filepath": "/home/girish-v-b/cQML/LoginApp/Header.qml"
+            }
+        ],
+        "moduleId": "LoginApp(appLoginApp)"
+    }
+]

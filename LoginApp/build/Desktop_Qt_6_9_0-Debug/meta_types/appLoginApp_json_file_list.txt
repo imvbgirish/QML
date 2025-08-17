@@ -1,0 +1,2 @@
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/appLoginApp_autogen/include/../EWIEGA46WW/moc_student.cpp.json
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/appLoginApp_autogen/include/../EWIEGA46WW/moc_studentviewmodel.cpp.json

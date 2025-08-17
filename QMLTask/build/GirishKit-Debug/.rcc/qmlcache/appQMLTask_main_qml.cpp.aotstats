@@ -1,0 +1,63 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 91,
+                            "functionName": "fill",
+                            "line": 13,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 63,
+                            "functionName": "alignment",
+                            "line": 17,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 285,
+                            "functionName": "onButton1Clicked",
+                            "line": 22,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 145,
+                            "functionName": "onButton2Clicked",
+                            "line": 26,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 124,
+                            "functionName": "onButton3Clicked",
+                            "line": 30,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 123,
+                            "functionName": "onButton4Clicked",
+                            "line": 34,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/girish-v-b/cQML/QMLTask/main.qml"
+                }
+            ],
+            "moduleId": "QMLTask(appQMLTask)"
+        }
+    ]
+}

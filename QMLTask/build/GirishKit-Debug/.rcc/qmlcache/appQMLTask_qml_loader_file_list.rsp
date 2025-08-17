@@ -1,0 +1,11 @@
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/qmake_QMLTask.qrc
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/appQMLTask_raw_qml_0.qrc
+/QMLTask/main.qml
+/QMLTask/CustomButton.qml
+/QMLTask/Button1.qml
+/QMLTask/MainMenu.qml
+/QMLTask/Button2.qml
+/QMLTask/Button3.qml
+/QMLTask/Button4.qml

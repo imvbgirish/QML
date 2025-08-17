@@ -1,0 +1,63 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 110,
+                            "functionName": "centerIn",
+                            "line": 16,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 68,
+                            "functionName": "centerIn",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 42,
+                            "functionName": "centerIn",
+                            "line": 29,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 38,
+                            "functionName": "centerIn",
+                            "line": 32,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 36,
+                            "functionName": "centerIn",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 37,
+                            "functionName": "centerIn",
+                            "line": 45,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/girish-v-b/cQML/QMLTask/Button2.qml"
+                }
+            ],
+            "moduleId": "QMLTask(appQMLTask)"
+        }
+    ]
+}

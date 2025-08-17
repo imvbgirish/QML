@@ -1,0 +1,10 @@
+-I
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug
+-I
+/home/girish-v-b/qt-bugfix/qt-install/qml
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/qmake_QMLTask.qrc
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/appQMLTask_raw_qml_0.qrc
+--module
+QMLTask

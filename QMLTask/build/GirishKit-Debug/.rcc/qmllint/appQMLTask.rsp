@@ -1,0 +1,16 @@
+--bare
+-I
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug
+-I
+/home/girish-v-b/qt-bugfix/qt-install/qml
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/qmake_QMLTask.qrc
+--resource
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/appQMLTask_raw_qml_0.qrc
+/home/girish-v-b/cQML/QMLTask/main.qml
+/home/girish-v-b/cQML/QMLTask/CustomButton.qml
+/home/girish-v-b/cQML/QMLTask/Button1.qml
+/home/girish-v-b/cQML/QMLTask/MainMenu.qml
+/home/girish-v-b/cQML/QMLTask/Button2.qml
+/home/girish-v-b/cQML/QMLTask/Button3.qml
+/home/girish-v-b/cQML/QMLTask/Button4.qml

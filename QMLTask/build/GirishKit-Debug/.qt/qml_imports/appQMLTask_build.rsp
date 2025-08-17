@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/cQML/QMLTask
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/qml_imports/appQMLTask_build.cmake
+-importPath
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/QMLTask
+-importPath
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug
+-importPath
+/home/girish-v-b/qt-bugfix/qt-install/qml
+-qrcFiles
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/qmake_QMLTask.qrc
+/home/girish-v-b/cQML/QMLTask/build/GirishKit-Debug/.qt/rcc/appQMLTask_raw_qml_0.qrc

@@ -1,0 +1,204 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 311,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 153,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"height\".",
+                        "functionName": "height",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "Cannot generate efficient code for MoveRegExp",
+                        "functionName": "regularExpression",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"height\".",
+                        "functionName": "height",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 695,
+                        "errorMessage": "Cannot generate efficient code for MoveRegExp",
+                        "functionName": "regularExpression",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 83
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"height\".",
+                        "functionName": "height",
+                        "line": 84
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "Cannot access value for name submit",
+                        "functionName": "color",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "fill",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 106
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"height\".",
+                        "functionName": "height",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot access value for name back",
+                        "functionName": "color",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "fill",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 160,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "",
+                        "functionName": "onDestruction",
+                        "line": 126
+                    }
+                ],
+                "filepath": "/home/girish-v-b/cQML/LoginApp/Login.qml"
+            }
+        ],
+        "moduleId": "LoginApp(appLoginApp)"
+    }
+]
