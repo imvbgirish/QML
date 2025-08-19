@@ -60,21 +60,21 @@ bool StudentViewModel::addStudentToList(const QString &studentName,const QString
 {
     qDebug()<<Q_FUNC_INFO;
 
-    // if (studentName.isEmpty() || phoneNumber.isEmpty() || fatherName.isEmpty() || email.isEmpty() ||
-    //     password.isEmpty() || confirmPassword.isEmpty()) {
-    //     qDebug() << "No Empty Fields are Allowed";
-    //     return false;
-    // }
+    if (studentName.isEmpty() || phoneNumber.isEmpty() || fatherName.isEmpty() || email.isEmpty() ||
+        password.isEmpty() || confirmPassword.isEmpty()) {
+        qDebug() << "No Empty Fields are Allowed";
+        return false;
+    }
 
-    // if (password.length() < 8) {
-    //     qDebug() << "Password must be at least 8 characters long";
-    //     return false;
-    // }
+    if (password.length() < 8) {
+        qDebug() << "Password must be at least 8 characters long";
+        return false;
+    }
 
-    // if (password != confirmPassword) {
-    //     qDebug() << "Passwords do not match";
-    //     return false;
-    // }
+    if (password != confirmPassword) {
+        qDebug() << "Passwords do not match";
+        return false;
+    }
 
     // Student* newStudent = new Student(this);
     // newStudent->setStudentName(studentName);

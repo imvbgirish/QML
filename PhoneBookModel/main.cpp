@@ -1,5 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include "ContactModel.h"
 
 int main(int argc, char *argv[])
 {
@@ -7,8 +9,10 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
     QGuiApplication app(argc, argv);
+    ContactModel contactModel;
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("cppContactModel",&contactModel);
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(
         &engine,

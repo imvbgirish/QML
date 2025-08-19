@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AddContact.qml</file>
+        <file>ContactList.qml</file>
+        <file>CustomButton.qml</file>
+        <file>ShowContactInfo.qml</file>
+        <file>Header.qml</file>
+        <file>images/user.jpg</file>
+    </qresource>
+</RCC>

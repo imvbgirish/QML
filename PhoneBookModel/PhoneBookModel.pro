@@ -5,6 +5,8 @@ QT += quick
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+        Contact.cpp \
+        ContactModel.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -20,5 +22,17 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+HEADERS += \
+    Contact.h \
+    ContactModel.h
+
 DISTFILES += \
-    CustomButton.qml
+    AddButton.qml \
+    AddContact.qml \
+    ContactList.qml \
+    ContactPopup.qml \
+    CustomButton.qml \
+    Header.qml \
+    ShowContactInfo.qml \
+    images/user.jpg \
+    images/user.jpg
