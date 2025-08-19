@@ -1,5 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include "CalculatorViewModel.h"
 
 int main(int argc, char *argv[])
 {
@@ -7,8 +9,10 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
     QGuiApplication app(argc, argv);
+    CalculatorViewModel calculatorModel;
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("calculatorModel",&calculatorModel);
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(
         &engine,

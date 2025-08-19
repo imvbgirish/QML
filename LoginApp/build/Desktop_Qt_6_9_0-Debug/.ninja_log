@@ -117,3 +117,17 @@
 301	6201	1755266916527300994	CMakeFiles/appLoginApp.dir/build/Desktop_Qt_6_9_0-Debug/.rcc/qmlcache/appLoginApp_qmlcache_loader.cpp.o	f947386638a77e7c
 5327	7701	1755266918028334676	CMakeFiles/appLoginApp.dir/build/Desktop_Qt_6_9_0-Debug/.rcc/qmlcache/appLoginApp_Header_qml.cpp.o	52ac6a3a096b4ca7
 7701	8326	1755266918646348547	appLoginApp	dbfffe0dc8523d2f
+23	44	1755435563482704369	appLoginApp_autogen/timestamp	c8eeb6fe4772f180
+23	44	1755435563482704369	appLoginApp_autogen/mocs_compilation.cpp	c8eeb6fe4772f180
+23	44	1755435563482704369	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/appLoginApp_autogen/timestamp	c8eeb6fe4772f180
+23	44	1755435563482704369	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/appLoginApp_autogen/mocs_compilation.cpp	c8eeb6fe4772f180
+47	52	1755581476691031477	meta_types/appLoginApp_json_file_list.txt	2d4a32b9060b5093
+47	52	1755581476691031477	meta_types/appLoginApp_json_file_list.txt.timestamp	2d4a32b9060b5093
+47	52	1755581476691031477	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/meta_types/appLoginApp_json_file_list.txt	2d4a32b9060b5093
+47	52	1755581476691031477	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/meta_types/appLoginApp_json_file_list.txt.timestamp	2d4a32b9060b5093
+52	58	1755581476691031477	meta_types/qt6apploginapp_debug_metatypes.json.gen	faaf8595e818ffc4
+52	58	1755581476691031477	meta_types/qt6apploginapp_debug_metatypes.json	faaf8595e818ffc4
+52	58	1755581476691031477	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/meta_types/qt6apploginapp_debug_metatypes.json.gen	faaf8595e818ffc4
+52	58	1755581476691031477	/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_0-Debug/meta_types/qt6apploginapp_debug_metatypes.json	faaf8595e818ffc4
+58	2021	1755581478658064682	CMakeFiles/appLoginApp.dir/studentviewmodel.cpp.o	9018952c1d9efc69
+2021	2709	1755581479340076133	appLoginApp	dbfffe0dc8523d2f
