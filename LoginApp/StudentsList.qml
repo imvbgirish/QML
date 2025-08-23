@@ -49,7 +49,6 @@ Rectangle {
                     text: fatherName
                 }
 
-
                 Text {
                     text: email
                 }

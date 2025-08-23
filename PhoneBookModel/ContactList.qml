@@ -66,7 +66,8 @@ Rectangle{
                             text: name
                             font.bold: true
                             font.pixelSize: 16
-                            anchors.centerIn: parent
+                            anchors.verticalCenter: parent.verticalCenter
+                            leftPadding: 100
                         }
                     }
 
