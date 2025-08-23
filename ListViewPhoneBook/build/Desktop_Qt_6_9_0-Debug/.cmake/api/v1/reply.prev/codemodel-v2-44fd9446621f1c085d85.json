@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8c75bedf713581a9a2bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ListViewPhoneBook",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-f744205b085644c336ee.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-0ec942ff6709b6f67b27.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-7c4fd73fe13017340622.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c1e5be8a6b81e72b5b70.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-afb3d039653b4a59e4c0.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook-Debug-5578998d1c2f617714fe.json",
+					"name" : "appListViewPhoneBook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_autogen-Debug-a3053becb71451c94662.json",
+					"name" : "appListViewPhoneBook_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_autogen_timestamp_deps-Debug-cbdae69a5d2ac127fdb2.json",
+					"name" : "appListViewPhoneBook_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_copy_qml-Debug-605a915f555952f3809e.json",
+					"name" : "appListViewPhoneBook_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_copy_res-Debug-d1d1de0255c31cb38a3d.json",
+					"name" : "appListViewPhoneBook_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_qmlimportscan-Debug-354fab4892b87f343680.json",
+					"name" : "appListViewPhoneBook_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_qmllint-Debug-1577f2b687a1c00a7c75.json",
+					"name" : "appListViewPhoneBook_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_qmllint_json-Debug-57c9f06b47e5b9c06f72.json",
+					"name" : "appListViewPhoneBook_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_qmllint_module-Debug-d3109ebb1b723b2ef367.json",
+					"name" : "appListViewPhoneBook_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appListViewPhoneBook_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appListViewPhoneBook_qmltyperegistration-Debug-e76a287eaf7c15210b16.json",
+					"name" : "appListViewPhoneBook_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appListViewPhoneBook_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appListViewPhoneBook_aotstats_target-Debug-ae3c59c2f7ecfc1319a2.json",
+					"name" : "module_appListViewPhoneBook_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug",
+		"source" : "/home/girish-v-b/cQML/ListViewPhoneBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

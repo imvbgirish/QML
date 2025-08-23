@@ -1,0 +1,76 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 251,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 1137,
+                        "errorMessage": "Cannot access value for name contactModel",
+                        "functionName": "model",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "delegate",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 588,
+                        "errorMessage": "Cannot access value for name contactName",
+                        "functionName": "text",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 607,
+                        "errorMessage": "Cannot access value for name contactNumber",
+                        "functionName": "text",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 125,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 52
+                    }
+                ],
+                "filepath": "/home/girish-v-b/cQML/ListViewPhoneBook/main.qml"
+            }
+        ],
+        "moduleId": "ListViewPhoneBook(appListViewPhoneBook)"
+    }
+]

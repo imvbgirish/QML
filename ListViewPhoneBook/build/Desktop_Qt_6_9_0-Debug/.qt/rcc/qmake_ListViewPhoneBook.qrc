@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ListViewPhoneBook">
+    <file alias="qmldir">/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/ListViewPhoneBook/qmldir</file>
+  </qresource>
+</RCC>
+

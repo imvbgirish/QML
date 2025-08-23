@@ -1,0 +1,17 @@
+--bare
+-I
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug
+-I
+/home/girish-v-b/Qt/6.9.1/gcc_64/qml
+--resource
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_LoginApp.qrc
+--resource
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appLoginApp_raw_qml_0.qrc
+/home/girish-v-b/cQML/LoginApp/main.qml
+/home/girish-v-b/cQML/LoginApp/Register.qml
+/home/girish-v-b/cQML/LoginApp/Login.qml
+/home/girish-v-b/cQML/LoginApp/HomePage.qml
+/home/girish-v-b/cQML/LoginApp/StudentsList.qml
+/home/girish-v-b/cQML/LoginApp/Header.qml
+--json
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/appLoginApp_qmllint.json

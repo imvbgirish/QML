@@ -1,0 +1,4 @@
+module ListViewPhoneBook
+typeinfo appListViewPhoneBook.qmltypes
+prefer :/ListViewPhoneBook/
+

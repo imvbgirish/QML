@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/cQML/ListViewPhoneBook
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appListViewPhoneBook_conf.cmake
+-importPath
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/ListViewPhoneBook
+-importPath
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_ListViewPhoneBook.qrc
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appListViewPhoneBook_raw_qml_0.qrc

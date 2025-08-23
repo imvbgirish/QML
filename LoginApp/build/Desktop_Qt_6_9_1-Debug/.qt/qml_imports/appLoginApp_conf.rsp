@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/cQML/LoginApp
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appLoginApp_conf.cmake
+-importPath
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/LoginApp
+-importPath
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_LoginApp.qrc
+/home/girish-v-b/cQML/LoginApp/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appLoginApp_raw_qml_0.qrc

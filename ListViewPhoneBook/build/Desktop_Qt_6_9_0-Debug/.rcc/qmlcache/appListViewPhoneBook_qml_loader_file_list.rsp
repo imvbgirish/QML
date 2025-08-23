@@ -1,0 +1,5 @@
+--resource
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_ListViewPhoneBook.qrc
+--resource
+/home/girish-v-b/cQML/ListViewPhoneBook/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appListViewPhoneBook_raw_qml_0.qrc
+/ListViewPhoneBook/main.qml

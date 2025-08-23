@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "ContactModel",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "addContactToList",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ContactModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "contactmodel.h",
+    "outputRevision": 69
+}
