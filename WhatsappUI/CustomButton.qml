@@ -2,17 +2,13 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Rectangle {
-    id: root
+    id: btn
     property alias text: buttonText.text
     property color baseColor: "#3498db"
     property color hoverColor: "#2980b9"
-    property int baseRadius: root.radius
-    property int baseWidth: root.width
+    property int fontSize: 14
     signal clicked()
 
-    width: root.width
-    height: root.height
-    radius: root.baseRadius
     color: baseColor
 
     Text {
@@ -20,14 +16,14 @@ Rectangle {
         anchors.centerIn: parent
         color: "#121212"
         font.bold: true
-        font.pixelSize: 14
+        font.pixelSize: btn.fontSize
     }
 
     MouseArea {
         anchors.fill: parent
         hoverEnabled: true
-        onClicked: root.clicked()
-        onEntered: root.color = root.hoverColor
-        onExited: root.color = root.baseColor
+        onClicked: btn.clicked()
+        onEntered: btn.color = btn.hoverColor
+        onExited: btn.color = btn.baseColor
     }
 }

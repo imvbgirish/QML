@@ -6,12 +6,15 @@ Rectangle {
     height: 50
     color: "gray"
     border.color: "Black"
+
     z: 2
 
     Row {
-        spacing:  20
+        spacing:  25
         // anchors.centerIn: parent
         anchors.verticalCenter: parent.verticalCenter
+        anchors.left: parent.left
+        anchors.leftMargin: 25
 
         Text {
             id: stuNo
