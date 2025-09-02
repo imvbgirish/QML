@@ -1,0 +1,5 @@
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD_autogen/include/../EWIEGA46WW/moc_callhistory.cpp.json
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD_autogen/include/../EWIEGA46WW/moc_contact.cpp.json
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD_autogen/include/../EWIEGA46WW/moc_contactdatamodel.cpp.json
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD_autogen/include/../EWIEGA46WW/moc_phonebook.cpp.json
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD_autogen/include/../EWIEGA46WW/moc_whatsapp.cpp.json

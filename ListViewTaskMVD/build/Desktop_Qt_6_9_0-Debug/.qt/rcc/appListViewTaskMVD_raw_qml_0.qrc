@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/ListViewTaskMVD/">
+    <file alias="main.qml">/home/girish-v-b/cQML/ListViewTaskMVD/main.qml</file>
+    <file alias="HomePage.qml">/home/girish-v-b/cQML/ListViewTaskMVD/HomePage.qml</file>
+    <file alias="CustomButton.qml">/home/girish-v-b/cQML/ListViewTaskMVD/CustomButton.qml</file>
+    <file alias="PhoneBookView.qml">/home/girish-v-b/cQML/ListViewTaskMVD/PhoneBookView.qml</file>
+    <file alias="PhoneBookHeader.qml">/home/girish-v-b/cQML/ListViewTaskMVD/PhoneBookHeader.qml</file>
+    <file alias="WhatsappHeader.qml">/home/girish-v-b/cQML/ListViewTaskMVD/WhatsappHeader.qml</file>
+    <file alias="WhatsappView.qml">/home/girish-v-b/cQML/ListViewTaskMVD/WhatsappView.qml</file>
+    <file alias="WhatsappFooter.qml">/home/girish-v-b/cQML/ListViewTaskMVD/WhatsappFooter.qml</file>
+    <file alias="CallHistoryHeader.qml">/home/girish-v-b/cQML/ListViewTaskMVD/CallHistoryHeader.qml</file>
+    <file alias="CallHistoryFooter.qml">/home/girish-v-b/cQML/ListViewTaskMVD/CallHistoryFooter.qml</file>
+    <file alias="CallHistoryView.qml">/home/girish-v-b/cQML/ListViewTaskMVD/CallHistoryView.qml</file>
+  </qresource>
+</RCC>
+

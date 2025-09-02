@@ -26,57 +26,57 @@ Rectangle{
             spacing: 10
             clip: true
             delegate:myComponent
+        }
 
-            Component {
-                id: myComponent
+        Component {
+            id: myComponent
 
-                Rectangle {
-                    id: dataRow
+            Rectangle {
+                id: dataRow
+                height: 70
+                width: root.width * 0.95
+                radius: 10
+                anchors.left: parent.left
+                anchors.leftMargin: 12
+                color: "#cdcce0"
+
+                Row {
+                    width: parent.width
                     height: 70
-                    width: root.width * 0.95
-                    radius: 10
-                    anchors.left: parent.left
-                    anchors.leftMargin: 12
-                    color: "#cdcce0"
+                    spacing: 10
 
-                    Row {
-                        width: parent.width
-                        height: 70
-                        spacing: 10
+                    Rectangle{
+                        id: imgBackground
+                        width: 50
+                        height: 50
+                        radius: 25
+                        anchors.verticalCenter: parent.verticalCenter
+                        anchors.left: parent.left
+                        anchors.leftMargin: 10
 
-                        Rectangle{
-                            id: imgBackground
-                            width: 50
-                            height: 50
-                            radius: 25
-                            anchors.verticalCenter: parent.verticalCenter
-                            anchors.left: parent.left
-                            anchors.leftMargin: 10
-
-                            Image {
-                                width: parent.width * 0.5
-                                height: parent.height * 0.5
-                                anchors.centerIn: parent
-                                source: imagePath
-                                fillMode: Image.PreserveAspectFit
-                            }
-                        }
-
-                        Text {
-                            text: name
-                            font.bold: true
-                            font.pixelSize: 16
-                            anchors.verticalCenter: parent.verticalCenter
-                            leftPadding: 100
+                        Image {
+                            width: parent.width * 0.5
+                            height: parent.height * 0.5
+                            anchors.centerIn: parent
+                            source: imagePath
+                            fillMode: Image.PreserveAspectFit
                         }
                     }
 
-                    MouseArea{
-                        id: eachContactData
-                        anchors.fill: parent
-                        onClicked: {
-                            contactClicked(name,phone,imagePath)
-                        }
+                    Text {
+                        text: name
+                        font.bold: true
+                        font.pixelSize: 16
+                        anchors.verticalCenter: parent.verticalCenter
+                        leftPadding: 100
+                    }
+                }
+
+                MouseArea{
+                    id: eachContactData
+                    anchors.fill: parent
+                    onClicked: {
+                        contactClicked(name,phone,imagePath)
                     }
                 }
             }
@@ -98,8 +98,3 @@ Rectangle{
         }
     }
 }
-
-
-
-
-

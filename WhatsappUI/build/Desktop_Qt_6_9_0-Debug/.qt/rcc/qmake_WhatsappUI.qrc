@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/WhatsappUI">
+    <file alias="qmldir">/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/WhatsappUI/qmldir</file>
+  </qresource>
+</RCC>
+

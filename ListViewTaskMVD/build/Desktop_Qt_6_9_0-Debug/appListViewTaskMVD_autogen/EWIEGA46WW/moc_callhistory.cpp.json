@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "CallHistory",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "CallHistory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "ContactDataModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "callhistory.h",
+    "outputRevision": 69
+}

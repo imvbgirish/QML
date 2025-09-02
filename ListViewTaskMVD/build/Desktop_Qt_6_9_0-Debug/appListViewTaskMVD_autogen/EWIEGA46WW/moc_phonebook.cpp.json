@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "Phonebook",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "Phonebook",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "ContactDataModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "phonebook.h",
+    "outputRevision": 69
+}

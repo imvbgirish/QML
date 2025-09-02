@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="images/telephone.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/telephone.png</file>
+    <file alias="images/chat.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/chat.png</file>
+    <file alias="images/social-media.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/social-media.png</file>
+    <file alias="images/group.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/group.png</file>
+    <file alias="images/new-message.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/new-message.png</file>
+    <file alias="images/favorite.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/favorite.png</file>
+    <file alias="images/delay.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/delay.png</file>
+    <file alias="images/notebook-of-contacts.png">/home/girish-v-b/cQML/ListViewTaskMVD/images/notebook-of-contacts.png</file>
+    <file alias="data/personInfo.csv">/home/girish-v-b/cQML/ListViewTaskMVD/data/personInfo.csv</file>
+  </qresource>
+</RCC>
+

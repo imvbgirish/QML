@@ -16,9 +16,9 @@ Rectangle {
     color: baseColor
 
     Text {
-        id: buttonText;
-        anchors.centerIn: parent;
-        color: "#121212";
+        id: buttonText
+        anchors.centerIn: parent
+        color: "#121212"
         font.bold: true
         font.pixelSize: 14
     }

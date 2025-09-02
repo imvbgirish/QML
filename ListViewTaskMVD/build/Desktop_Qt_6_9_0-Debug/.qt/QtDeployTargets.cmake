@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appListViewTaskMVD_FILE /home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/appListViewTaskMVD)
+set(__QT_DEPLOY_TARGET_appListViewTaskMVD_TYPE EXECUTABLE)

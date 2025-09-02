@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "ContactDataModel",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "ContactDataModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "contactdatamodel.h",
+    "outputRevision": 69
+}

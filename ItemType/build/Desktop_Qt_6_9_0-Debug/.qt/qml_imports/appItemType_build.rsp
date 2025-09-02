@@ -1,0 +1,14 @@
+-rootPath
+/home/girish-v-b/cQML/ItemType
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appItemType_build.cmake
+-importPath
+/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug/ItemType
+-importPath
+/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_ItemType.qrc
+/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appItemType_raw_qml_0.qrc

@@ -1,0 +1,5 @@
+module WhatsappUI
+typeinfo appWhatsappUI.qmltypes
+prefer :/WhatsappUI/
+CustomButton 1.0 CustomButton.qml
+

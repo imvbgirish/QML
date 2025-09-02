@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ListViewTaskMVD">
+    <file alias="qmldir">/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/ListViewTaskMVD/qmldir</file>
+  </qresource>
+</RCC>
+

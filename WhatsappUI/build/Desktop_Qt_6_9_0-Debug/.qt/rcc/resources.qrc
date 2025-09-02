@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="images/user.jpg">/home/girish-v-b/cQML/WhatsappUI/images/user.jpg</file>
+  </qresource>
+</RCC>
+

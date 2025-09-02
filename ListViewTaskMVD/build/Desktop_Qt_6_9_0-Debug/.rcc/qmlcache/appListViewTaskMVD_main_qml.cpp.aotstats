@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 179,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 189,
+                        "errorMessage": "",
+                        "functionName": "onPhoneBookClicked",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "",
+                        "functionName": "onCallHistoryClicked",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 3254,
+                        "errorMessage": "",
+                        "functionName": "onWhatsappClicked",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 190,
+                        "errorMessage": "",
+                        "functionName": "onGoBack",
+                        "line": 34
+                    }
+                ],
+                "filepath": "/home/girish-v-b/cQML/ListViewTaskMVD/main.qml"
+            }
+        ],
+        "moduleId": "ListViewTaskMVD(appListViewTaskMVD)"
+    }
+]

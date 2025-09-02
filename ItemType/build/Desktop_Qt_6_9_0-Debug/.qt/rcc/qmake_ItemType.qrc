@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ItemType">
+    <file alias="qmldir">/home/girish-v-b/cQML/ItemType/build/Desktop_Qt_6_9_0-Debug/ItemType/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,4 @@
+module ItemType
+typeinfo appItemType.qmltypes
+prefer :/ItemType/
+

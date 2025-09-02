@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-130d723a130d937b5395.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WhatsappUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-7c0e52f617a8c2361662.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-6f95cebe97bd67e33bc7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-5021f8297492836c1d39.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-af9fdbdd17e8d6270d7e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6e6ac729487ca2b3b50b.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI-Debug-678582c3ce92bbb64740.json",
+					"name" : "appWhatsappUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_autogen-Debug-e2f38fc47c3d49237be1.json",
+					"name" : "appWhatsappUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_autogen_timestamp_deps-Debug-c3ad751c83ad985ddd21.json",
+					"name" : "appWhatsappUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_copy_qml-Debug-f7bf5ddb1ddccb7448eb.json",
+					"name" : "appWhatsappUI_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_copy_res-Debug-7442ec3ae424b48cb7dd.json",
+					"name" : "appWhatsappUI_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_qmlimportscan-Debug-ef757dcafb3a04d43a72.json",
+					"name" : "appWhatsappUI_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_qmllint-Debug-7116faf90fc099786daf.json",
+					"name" : "appWhatsappUI_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_qmllint_json-Debug-18350e70aee8f9dff412.json",
+					"name" : "appWhatsappUI_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_qmllint_module-Debug-a8b084ac0edf9729a763.json",
+					"name" : "appWhatsappUI_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWhatsappUI_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWhatsappUI_qmltyperegistration-Debug-0c2253a5068bff7ff678.json",
+					"name" : "appWhatsappUI_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appWhatsappUI_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appWhatsappUI_aotstats_target-Debug-7f58b3594e01072525bc.json",
+					"name" : "module_appWhatsappUI_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug",
+		"source" : "/home/girish-v-b/cQML/WhatsappUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

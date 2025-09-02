@@ -1,0 +1,15 @@
+-rootPath
+/home/girish-v-b/cQML/ListViewTaskMVD
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appListViewTaskMVD_build.cmake
+-importPath
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/ListViewTaskMVD
+-importPath
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_ListViewTaskMVD.qrc
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appListViewTaskMVD_raw_qml_0.qrc
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/resources.qrc

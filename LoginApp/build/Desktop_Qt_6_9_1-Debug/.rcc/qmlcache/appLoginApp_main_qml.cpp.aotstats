@@ -1,0 +1,100 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 119,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 9,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "",
+                        "functionName": "onLoginPage",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 9,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "onRegisterPage",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 9,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "onStudentDataClicked",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 9,
+                        "durationMicroseconds": 119,
+                        "errorMessage": "",
+                        "functionName": "onBackBtnClicked",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 9,
+                        "durationMicroseconds": 125,
+                        "errorMessage": "",
+                        "functionName": "onLoginBackBtnClicked",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "onLoginSubmitBtnClicked",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "Cannot access value for name studentModel",
+                        "functionName": "target",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"registrationSuccess\".",
+                        "functionName": "onRegistrationSuccess",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"loginSuccess\".",
+                        "functionName": "onLoginSuccess",
+                        "line": 59
+                    }
+                ],
+                "filePath": "/home/girish-v-b/cQML/LoginApp/main.qml"
+            }
+        ],
+        "moduleId": "LoginApp(appLoginApp)"
+    }
+]

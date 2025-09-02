@@ -1,0 +1,17 @@
+--resource
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_ListViewTaskMVD.qrc
+--resource
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appListViewTaskMVD_raw_qml_0.qrc
+--resource
+/home/girish-v-b/cQML/ListViewTaskMVD/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/resources.qrc
+/ListViewTaskMVD/main.qml
+/ListViewTaskMVD/HomePage.qml
+/ListViewTaskMVD/CustomButton.qml
+/ListViewTaskMVD/PhoneBookView.qml
+/ListViewTaskMVD/PhoneBookHeader.qml
+/ListViewTaskMVD/WhatsappHeader.qml
+/ListViewTaskMVD/WhatsappView.qml
+/ListViewTaskMVD/WhatsappFooter.qml
+/ListViewTaskMVD/CallHistoryHeader.qml
+/ListViewTaskMVD/CallHistoryFooter.qml
+/ListViewTaskMVD/CallHistoryView.qml

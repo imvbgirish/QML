@@ -1,0 +1,14 @@
+module ListViewTaskMVD
+typeinfo appListViewTaskMVD.qmltypes
+prefer :/ListViewTaskMVD/
+HomePage 1.0 HomePage.qml
+CustomButton 1.0 CustomButton.qml
+PhoneBookView 1.0 PhoneBookView.qml
+PhoneBookHeader 1.0 PhoneBookHeader.qml
+WhatsappHeader 1.0 WhatsappHeader.qml
+WhatsappView 1.0 WhatsappView.qml
+WhatsappFooter 1.0 WhatsappFooter.qml
+CallHistoryHeader 1.0 CallHistoryHeader.qml
+CallHistoryFooter 1.0 CallHistoryFooter.qml
+CallHistoryView 1.0 CallHistoryView.qml
+

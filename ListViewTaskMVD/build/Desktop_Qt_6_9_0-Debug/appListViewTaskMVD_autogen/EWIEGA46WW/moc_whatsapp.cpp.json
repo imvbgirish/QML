@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "Whatsapp",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "Whatsapp",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "ContactDataModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "whatsapp.h",
+    "outputRevision": 69
+}

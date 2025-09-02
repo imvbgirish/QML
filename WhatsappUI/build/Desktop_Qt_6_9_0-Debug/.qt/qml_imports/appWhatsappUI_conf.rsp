@@ -1,0 +1,15 @@
+-rootPath
+/home/girish-v-b/cQML/WhatsappUI
+-cmake-output
+-output-file
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/.qt/qml_imports/appWhatsappUI_conf.cmake
+-importPath
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/WhatsappUI
+-importPath
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug
+-importPath
+/home/girish-v-b/Qt/6.9.0/gcc_64/qml
+-qrcFiles
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/qmake_WhatsappUI.qrc
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/appWhatsappUI_raw_qml_0.qrc
+/home/girish-v-b/cQML/WhatsappUI/build/Desktop_Qt_6_9_0-Debug/.qt/rcc/resources.qrc
