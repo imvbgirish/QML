@@ -34,5 +34,24 @@ ApplicationWindow {
         function onGoBack(){
             load.source = "HomePage.qml"
         }
+
+        function onAddClicked(){
+            load.source = "AddContact.qml"
+        }
+
+        function onSaveBtnClicked(){
+            load.source = "PhoneBookView.qml"
+        }
+
+        function onBackBtnClicked(){
+            load.source = "PhoneBookView.qml"
+        }
+
+        function onContactClicked(contactName,contactNumber,contactImage){
+            load.setSource("ShowContactInfo.qml",{
+                           "name": contactName,
+                           "phoneNumber": contactNumber,
+                           "imageUrl":contactName })
+        }
     }
 }

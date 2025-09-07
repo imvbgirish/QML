@@ -29,6 +29,8 @@ QVariant Whatsapp::data(const QModelIndex &index, int role) const
         return c->getContactName();
     case MESSAGE_ROLE:
         return c->getLastMessage();
+    case IMAGE_PATH:
+        return c->getContactImage();
     case TIME_ROLE:
         return c->getContactedTime();
     default:
@@ -45,6 +47,7 @@ QHash<int, QByteArray> Whatsapp::roleNames() const
     roles.insert(NAME_ROLE, "contactName");
     roles.insert(MESSAGE_ROLE, "lastMessage");
     roles.insert(TIME_ROLE,"contactedTime");
+    roles.insert(IMAGE_PATH,"contactImage");
     return roles;
 }
 
@@ -52,13 +55,13 @@ void Whatsapp::createContactData()
 {
     qDebug() << Q_FUNC_INFO;
 
-    QList<QStringList> csvData = readDataFromFile(":/data/personInfo.csv");
+    QList<QStringList> csvData = readDataFromFile(":/data/whatsapp.csv");
     for (const QStringList &row : csvData) {
         Contact* c = new Contact;
         c->setContactName(row[0]);
-        c->setContactImage(row[2]);
-        c->setContactedTime(row[3]);
-        c->setLastMessage(row[4]);
+        c->setContactImage(row[1]);
+        c->setContactedTime(row[2]);
+        c->setLastMessage(row[3]);
 
         insertContactData(c);
     }

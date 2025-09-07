@@ -17,6 +17,7 @@ Window {
 
     Connections {
         target: load.item
+        ignoreUnknownSignals: true
 
         function onAddClicked(){
             load.source = "AddContact.qml"

@@ -49,14 +49,14 @@ Rectangle {
         height: 15
         width: 22
         radius: 10
-        border.color: "black"
-        anchors.top: parent.top
-        anchors.topMargin: 5
-        anchors.left: parent.left
-        anchors.leftMargin: 5
-        fontSize: 15
         text: "«"
         textColor: "#121212"
+        fontSize: 15
+        border.color: "black"
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.topMargin: 10
+        anchors.rightMargin: 10
         onClicked: {
             backBtnClicked()
         }

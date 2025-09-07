@@ -11,12 +11,16 @@ Phonebook::~Phonebook()
 
 int Phonebook::rowCount(const QModelIndex &parent) const
 {
+    qDebug() << Q_FUNC_INFO;
+
     Q_UNUSED(parent);
     return m_contactList.size();
 }
 
 QVariant Phonebook::data(const QModelIndex &index, int role) const
 {
+    qDebug() << Q_FUNC_INFO;
+
     if(!index.isValid() || index.row()<0 || index.row() >= m_contactList.size())
         return QVariant();
 
@@ -37,6 +41,8 @@ QVariant Phonebook::data(const QModelIndex &index, int role) const
 
 QHash<int, QByteArray> Phonebook::roleNames() const
 {
+    qDebug() << Q_FUNC_INFO;
+
     QHash<int, QByteArray> roles;
     roles.insert(NAME_ROLE, "contactName");
     roles.insert(NUMBER_ROLE, "contactNumber");
@@ -46,7 +52,9 @@ QHash<int, QByteArray> Phonebook::roleNames() const
 
 void Phonebook::createContactData()
 {
-    QList<QStringList> csvData = readDataFromFile(":/data/personInfo.csv");
+    qDebug() << Q_FUNC_INFO;
+
+    QList<QStringList> csvData = readDataFromFile(":/data/phonebook.csv");
     for (const QStringList &row : csvData) {
         Contact* c = new Contact;
         c->setContactName(row[0]);
@@ -55,4 +63,26 @@ void Phonebook::createContactData()
 
         insertContactData(c);
     }
+}
+
+void Phonebook::addContact(const QString &name, const QString &phone, const QString &imagePath)
+{
+    qDebug() << Q_FUNC_INFO;
+
+    if(name.isEmpty() || phone.isEmpty()){
+        qDebug() << "Fields cannot be empty";
+    }
+
+    if(phone.length() < 10){
+        qDebug() << "Phone Number must be 10 digits";
+    }
+
+    Contact* c = new Contact;
+    c->setContactName(name);
+    c->setContactNumber(phone);
+    c->setContactImage(imagePath);
+
+    insertContactData(c);
+
+    qDebug() << "Contact Added";
 }

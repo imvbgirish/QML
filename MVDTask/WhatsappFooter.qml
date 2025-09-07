@@ -101,7 +101,7 @@ Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
                 Image {
                     id: img3
-                    source: "qrc:/images/chat.png"
+                    source: "qrc:/images/group.png"
                     height: 30
                     width: 30
                     anchors.centerIn: parent

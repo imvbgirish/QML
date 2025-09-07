@@ -17,6 +17,8 @@ public:
     QHash<int, QByteArray> roleNames() const override;
 
     void createContactData() override;
+
+    Q_INVOKABLE void addContact(const QString &name, const QString &phone, const QString &imagePath);
 };
 
 #endif // PHONEBOOK_H

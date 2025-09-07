@@ -5,8 +5,13 @@ Rectangle{
     color: "#1E1E1E"
     anchors.fill: parent
 
+    signal goBack()
+
     CallHistoryHeader{
         id: callHistoryHeader
+        onBackBtnClicked: {
+            goBack()
+        }
     }
 
     CallHistoryFooter{
@@ -41,6 +46,24 @@ Rectangle{
                 height: 70
                 spacing: 10
 
+                Rectangle{
+                    id: imgBackground
+                    width: 50
+                    height: 50
+                    radius: 25
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: 10
+
+                    Image {
+                        width: parent.width * 0.5
+                        height: parent.height * 0.5
+                        anchors.centerIn: parent
+                        source: contactImage
+                        fillMode: Image.PreserveAspectFit
+                    }
+                }
+
                 Column{
                     width: parent.width
                     height: parent.height
@@ -67,7 +90,24 @@ Rectangle{
                         color: "white"
                     }
                 }
+
+                Text{
+                    text: incoming ? "incoming" : "outgoing"
+                    font.pixelSize: 12
+                    color: "white"
+                    anchors.right: parent.right
+                    rightPadding: 5
+                    topPadding: 6
+                }
             }
         }
+    }
+
+    Component.onCompleted: {
+        console.log("CallHistoryView Created")
+    }
+
+    Component.onDestruction: {
+        console.log("CallHistoryView Destructed")
     }
 }

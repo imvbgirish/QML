@@ -23,5 +23,23 @@ Rectangle{
             leftPadding: 20
             topPadding: 15
         }
+
+        CustomButton{
+            id: back
+            height: 15
+            width: 22
+            radius: 10
+            text: "«"
+            textColor: "#121212"
+            fontSize: 15
+            border.color: "black"
+            anchors.right: parent.right
+            anchors.top: parent.top
+            anchors.topMargin: 10
+            anchors.rightMargin: 10
+            onClicked: {
+                backBtnClicked()
+            }
+        }
     }
 }

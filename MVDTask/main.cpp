@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("CallHistoryModel", callHistory);
     engine.rootContext()->setContextProperty("WhatsappModel", whatsapp);
 
-    const QUrl url(QStringLiteral("qrc:/ListViewTaskMVD/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/MVDTask/main.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,

@@ -5,8 +5,13 @@ Rectangle{
     color: "#1E1E1E"
     anchors.fill: parent
 
+    signal goBack()
+
     WhatsappHeader{
         id: whatsappHeader
+        onBackBtnClicked: {
+            goBack()
+        }
     }
 
     WhatsappFooter{
@@ -40,6 +45,23 @@ Rectangle{
                 width: parent.width
                 height: 70
                 spacing: 10
+
+                Rectangle{
+                    id: imgBackground
+                    width: 50
+                    height: 50
+                    radius: 25
+                    anchors.left: parent.left
+                    anchors.leftMargin: 12
+
+                    Image {
+                        width: parent.width * 0.5
+                        height: parent.height * 0.5
+                        anchors.centerIn: parent
+                        source: contactImage
+                        fillMode: Image.PreserveAspectFit
+                    }
+                }
 
                 Column{
                     width: parent.width
@@ -92,5 +114,13 @@ Rectangle{
             width: 30
             anchors.centerIn: parent
         }
+    }
+
+    Component.onCompleted: {
+        console.log("WhatsappView Created")
+    }
+
+    Component.onDestruction: {
+        console.log("WhatsappView Destructed")
     }
 }

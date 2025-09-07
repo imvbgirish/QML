@@ -23,6 +23,25 @@ Rectangle{
             leftPadding: 15
             topPadding: 10
         }
+
+        CustomButton{
+            id: back
+            height: 15
+            width: 22
+            radius: 10
+            baseColor: "#39ad4b"
+            hoverColor: "#4e9659"
+            text: "«"
+            textColor: "white"
+            fontSize: 15
+            anchors.right: parent.right
+            anchors.top: parent.top
+            anchors.topMargin: 10
+            anchors.rightMargin: 10
+            onClicked: {
+                backBtnClicked()
+            }
+        }
     }
 
     TextField{

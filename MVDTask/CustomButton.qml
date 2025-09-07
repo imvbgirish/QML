@@ -4,7 +4,7 @@ import QtQuick.Controls 2.15
 Rectangle {
     id: btn
     property alias text: buttonText.text
-    property alias textColor: buttonText.color
+    property color textColor: buttonText.color
     property color baseColor: "#3498db"
     property color hoverColor: "#2980b9"
     property int fontSize: 14

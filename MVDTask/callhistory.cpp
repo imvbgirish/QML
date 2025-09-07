@@ -61,15 +61,15 @@ void CallHistory::createContactData()
 {
     qDebug() << Q_FUNC_INFO;
 
-    QList<QStringList> csvData = readDataFromFile(":/data/personInfo.csv");
+    QList<QStringList> csvData = readDataFromFile(":/data/callHistory.csv");
     for (const QStringList &row : csvData) {
         Contact* c = new Contact;
         c->setContactName(row[0]);
         c->setContactNumber(row[1]);
         c->setContactImage(row[2]);
         c->setContactedTime(row[3]);
-        c->setIncoming(row[5].toInt() == 0);
-        c->setOutgoing(row[6].toInt() == 0);
+        c->setIncoming(row[4].toInt() == 0);
+        c->setOutgoing(row[5].toInt() == 0);
 
         insertContactData(c);
     }
