@@ -18,6 +18,7 @@ ApplicationWindow {
 
     Connections{
         target: load.item
+        ignoreUnknownSignals: true
 
         function onPhoneBookClicked() {
             load.source = "PhoneBookView.qml"
@@ -47,11 +48,15 @@ ApplicationWindow {
             load.source = "PhoneBookView.qml"
         }
 
-        function onContactClicked(contactName,contactNumber,contactImage){
+        function onBackToListBtnClicked(){
+            load.source = "PhoneBookView.qml"
+        }
+
+        function onContactClicked(name,phone,image){
             load.setSource("ShowContactInfo.qml",{
-                           "name": contactName,
-                           "phoneNumber": contactNumber,
-                           "imageUrl":contactName })
+                           "name": name,
+                           "phoneNumber": phone,
+                           "imageUrl": image })
         }
     }
 }

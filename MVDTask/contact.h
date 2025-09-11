@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QDebug>
+#include <QDateTime>
 
 class Contact : public QObject
 {
@@ -40,7 +41,6 @@ public:
 
     bool getOutgoing() const;
     void setOutgoing(bool newOutgoing);
-
 
 signals:
     void contactNameChanged();

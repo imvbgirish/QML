@@ -74,3 +74,22 @@ void CallHistory::createContactData()
         insertContactData(c);
     }
 }
+
+void CallHistory::addCallHistory(const QString &name, const QString &phone, const QString &imagePath)
+{
+    // qDebug() << "index: "<< index;
+
+    QDateTime dateTime = QDateTime::currentDateTime();
+    QString time = dateTime.toString("h:m:s ap");
+
+    Contact *c = new Contact;
+    c->setContactName(name);
+    c->setContactNumber(phone);
+    c->setContactImage(imagePath);
+    c->setContactedTime(time);
+    c->setIncoming(0);
+    c->setOutgoing(1);
+
+    m_contactList.push_front(c);
+
+}

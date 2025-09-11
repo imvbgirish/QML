@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.15
 import QtQuick.Dialogs
 
 Rectangle {
-    id: addContact
+    id: _addContact
     anchors.fill: parent
     color: "#1E1E1E"
 
@@ -118,7 +118,7 @@ Rectangle {
             id: nameField
             placeholderText: "Name"
             height: 40
-            width: addContact.width * 0.6
+            width: _addContact.width * 0.6
             leftPadding: 20
             font.pixelSize: 18
             validator: RegularExpressionValidator {
@@ -137,7 +137,7 @@ Rectangle {
             id: phoneField
             placeholderText: "Phone"
             height: 40
-            width: addContact.width * 0.6
+            width: _addContact.width * 0.6
             leftPadding: 20
             font.pixelSize: 18
             validator: RegularExpressionValidator {

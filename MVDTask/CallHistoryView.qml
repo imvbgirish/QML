@@ -98,6 +98,7 @@ Rectangle{
                     anchors.right: parent.right
                     rightPadding: 5
                     topPadding: 6
+                    // visible:
                 }
             }
         }

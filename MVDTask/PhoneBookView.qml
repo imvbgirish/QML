@@ -1,6 +1,5 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-import QtQuick.Layouts 1.15
 
 Rectangle{
     id: homePage
@@ -9,6 +8,10 @@ Rectangle{
     signal goBack()
     signal addClicked()
     signal contactClicked(string name, string phone, string image)
+
+    property string pName: ""
+    property string pNumber: ""
+    property string pImage: ""
 
     PhoneBookHeader {
         id: contactsHeader
@@ -24,6 +27,7 @@ Rectangle{
         model: PhoneBookModel
         anchors.top: contactsHeader.bottom
         anchors.topMargin: 20
+        anchors.bottom: parent.bottom
         spacing: 10
         clip: true
         delegate: myComponent
@@ -99,17 +103,22 @@ Rectangle{
                         height: parent.height * 0.5
                         anchors.centerIn: parent
                         source: "qrc:/images/call.png"
+                    }
 
-                        MouseArea{
-                            id: openPopup
-                            anchors.fill: parent
-                            onClicked: {
-                                console.log("call button clicked")
-                                callPopup.open()
-                            }
+                    MouseArea{
+                        id: openPopup
+                        anchors.fill: parent
+                        onClicked: {
+                            console.log("call button clicked")
+                            pName = contactName
+                            pNumber = contactNumber
+                            pImage = contactImage
+                            CallHistoryModel.addCallHistory(contactName,contactNumber,contactImage)
+                            callPopup.open()
                         }
                     }
                 }
+
                 MouseArea{
                     id: eachContactData
                     height: parent.height
@@ -129,6 +138,7 @@ Rectangle{
         width: 300
         height: 400
         focus: true
+        modal: true
         closePolicy: Popup.NoAutoClose
 
         background: Rectangle{
@@ -153,8 +163,38 @@ Rectangle{
                 width: parent.width * 0.5
                 height: parent.height * 0.5
                 anchors.centerIn: parent
-                source: "qrc:/images/user.png"
+                source: pImage
                 fillMode: Image.PreserveAspectFit
+            }
+        }
+
+        Column{
+            id: _col
+            anchors.top: callerImg.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.topMargin: 25
+            spacing: 15
+
+            Text {
+                id: _name
+                text: pName
+                color: "white"
+                font.bold: true
+            }
+
+            Text {
+                id: _number
+                text: pNumber
+                color: "white"
+                font.bold: true
+            }
+
+            Text {
+                id: calling
+                text: qsTr("Calling...")
+                font.bold: true
+                font.pixelSize: 20
+                color: "green"
             }
         }
 

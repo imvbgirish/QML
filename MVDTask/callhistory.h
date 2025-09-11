@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QDebug>
+#include <QDateTime>
 #include "contactdatamodel.h"
 
 class CallHistory : public ContactDataModel
@@ -17,6 +18,8 @@ public:
     QHash<int, QByteArray> roleNames() const override;
 
     void createContactData() override;
+    Q_INVOKABLE void addCallHistory(const QString &name, const QString &phone, const QString &imagePath );
+
 };
 
 #endif // CALLHISTORY_H
