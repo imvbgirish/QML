@@ -1,0 +1,5 @@
+Commands to build and run
+
+qmake project-name.pro
+make
+./project-name
