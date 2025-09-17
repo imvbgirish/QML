@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HomePage.qml</file>
+        <file>GalleryPage.qml</file>
+        <file>CustomImage.qml</file>
+        <file>images/flower.jpeg</file>
+    </qresource>
+</RCC>

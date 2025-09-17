@@ -6,6 +6,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
+find_package(Qt6 REQUIRED COMPONENTS Core)
 
 qt_add_executable(appListViewTask
     main.cpp
@@ -37,6 +38,7 @@ qt_add_qml_module(appListViewTask
         QML_FILES CallHistoryFooter.qml
         QML_FILES WhatsappFooter.qml
         QML_FILES PhoneBookView.qml
+        SOURCES contactmanager.h contactmanager.cpp
 )
 
 
@@ -73,6 +75,7 @@ set_target_properties(appListViewTask PROPERTIES
 
 target_link_libraries(appListViewTask
     PRIVATE Qt6::Quick)
+target_link_libraries(appListViewTask PRIVATE Qt6::Core)
 
 include(GNUInstallDirs)
 install(TARGETS appListViewTask
