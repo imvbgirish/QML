@@ -7,7 +7,6 @@ Rectangle {
     color: "#222222"
     radius: 6
     clip: false
-    z: expanded ? 1 : 0
 
     property alias source: img.source
     property bool expanded: false
@@ -34,6 +33,7 @@ Rectangle {
                     imgX.to = -rectangle.x
                     imgY.to = -rectangle.y
                     expanded = true
+                    rectangle.z = 1
                 } else {
                     imgW.from = img.width
                     imgH.from = img.height
@@ -47,43 +47,55 @@ Rectangle {
                     expanded = false
                 }
 
-                imgW.start()
-                imgH.start()
-                imgX.start()
-                imgY.start()
+                // imgW.start()
+                // imgH.start()
+                // imgX.start()
+                // imgY.start()
+
+                animate.start()
             }
         }
     }
 
-    PropertyAnimation {
-        id: imgW
-        target: img
-        property: "width"
-        duration: 400
-        easing.type: Easing.InOutQuad
-    }
+    ParallelAnimation{
+        id: animate
+        running: true
 
-    PropertyAnimation {
-        id: imgH
-        target: img
-        property: "height"
-        duration: 400
-        easing.type: Easing.InOutQuad
-    }
+        PropertyAnimation {
+            id: imgW
+            target: img
+            property: "width"
+            duration: 400
+            easing.type: Easing.InOutQuad
+        }
 
-    PropertyAnimation {
-        id: imgX
-        target: img
-        property: "x"
-        duration: 400
-        easing.type: Easing.InOutQuad
-    }
+        PropertyAnimation {
+            id: imgH
+            target: img
+            property: "height"
+            duration: 400
+            easing.type: Easing.InOutQuad
+        }
 
-    PropertyAnimation {
-        id: imgY
-        target: img
-        property: "y"
-        duration: 400
-        easing.type: Easing.InOutQuad
+        PropertyAnimation {
+            id: imgX
+            target: img
+            property: "x"
+            duration: 400
+            easing.type: Easing.InOutQuad
+        }
+
+        PropertyAnimation {
+            id: imgY
+            target: img
+            property: "y"
+            duration: 400
+            easing.type: Easing.InOutQuad
+        }
+
+        onStopped: {
+            if(!expanded)
+            rectangle.z = 0
+        }
     }
 }
