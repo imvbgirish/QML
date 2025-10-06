@@ -3,6 +3,8 @@
 
 #include <QAbstractListModel>
 #include <QDebug>
+#include <QMap>
+#include <QDate>
 #include <QObject>
 \
 class GalleryViewModel : public QAbstractListModel
@@ -22,9 +24,13 @@ public:
     QVariant data(const QModelIndex &index, int role) const override;
     QHash<int, QByteArray> roleNames() const override;
 
+    QMap<QDate, QStringList> getGallery() const;
+    void setGallery(const QMap<QDate, QStringList> &newGallery);
+
+    Q_INVOKABLE void addImages(const QDate &date, const QStringList &images);
+
 private:
     QMap<QDate, QStringList>  m_gallery;
-    QList<QDate> m_dateList;
 };
 
 #endif // GALLERYVIEWMODEL_H

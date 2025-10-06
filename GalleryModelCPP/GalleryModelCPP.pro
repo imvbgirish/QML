@@ -5,7 +5,6 @@ QT += quick
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        gallery.cpp \
         galleryviewmodel.cpp \
         main.cpp
 
@@ -23,5 +22,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    gallery.h \
     galleryviewmodel.h
+
+DISTFILES += \
+    CustomImage.qml \
+    GalleryPage.qml \
+    HomePage.qml

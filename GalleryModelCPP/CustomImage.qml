@@ -47,21 +47,15 @@ Rectangle {
                     expanded = false
                 }
 
+                // imgW.start()
+                // imgH.start()
+                // imgX.start()
+                // imgY.start()
+
                 animate.start()
-               // animate.start()
             }
         }
     }
-
-    // PropertyAnimation{
-    //     id: animate
-    //     target: img
-    //     property: "scale"
-    //     from: 1
-    //     to: 2
-    //     duration: 400
-    //     easing.type: Easing.InOutQuad
-    // }
 
     ParallelAnimation{
         id: animate

@@ -3,12 +3,13 @@
 #include <QAccessible>
 #include <QDebug>
 
-static const char* roleName(QAccessible::Role role)
+static const QString roleName(QAccessible::Role role)
 {
     switch (role) {
     case QAccessible::Pane: return "Pane";
     case QAccessible::Grouping: return "Grouping";
     case QAccessible::PageTab: return "PageTab";
+    case QAccessible::Button: return "Button";
     default: return "Other";
     }
 }
@@ -43,6 +44,5 @@ int main(int argc, char *argv[])
     } else {
         qDebug() << "Page object not found";
     }
-
     return app.exec();
 }

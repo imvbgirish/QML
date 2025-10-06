@@ -9,7 +9,7 @@ Window {
     Page {
         anchors.fill: parent
         id: page1
-        objectName: "page1"   // Needed to find it in C++
+        objectName: "page1"
 
         Label {
             text: "Hello Page 1"

@@ -1,5 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include "galleryviewmodel.h"
 
 int main(int argc, char *argv[])
 {
@@ -7,8 +9,19 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
     QGuiApplication app(argc, argv);
-
+    GalleryViewModel gallery;
     QQmlApplicationEngine engine;
+
+    gallery.addImages(QDate(2025, 9, 23),
+                           {"https://picsum.photos/200/200?random=1",
+                            "https://picsum.photos/200/200?random=2",
+                            "https://picsum.photos/200/200?random=3"});
+
+    gallery.addImages(QDate(2025, 9, 22),
+                           {"https://picsum.photos/200/200?random=4",
+                            "https://picsum.photos/200/200?random=5"});
+
+    engine.rootContext()->setContextProperty("galleryModel", &gallery);
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(
         &engine,
