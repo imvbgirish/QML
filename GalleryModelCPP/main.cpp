@@ -21,6 +21,13 @@ int main(int argc, char *argv[])
                            {"https://picsum.photos/200/200?random=4",
                             "https://picsum.photos/200/200?random=5"});
 
+    gallery.addImages(QDate(2025, 9, 25),
+                      {"https://picsum.photos/200/200?random=6",
+                       "https://picsum.photos/200/200?random=7",
+                       "https://picsum.photos/200/200?random=8",
+                       "https://picsum.photos/200/200?random=9",
+                       "https://picsum.photos/200/200?random=10"});
+
     engine.rootContext()->setContextProperty("galleryModel", &gallery);
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(

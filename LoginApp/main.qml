@@ -18,6 +18,7 @@ Window {
 
     Connections {
         target: _load.item
+        ignoreUnknownSignals: true
 
         function onLoginPage(){
             _load.source = "Login.qml"
@@ -51,14 +52,24 @@ Window {
     Connections {
         target: studentModel
 
-        onRegistrationSuccess: {
-            console.log("Registration Success")
-            _load.source = "Login.qml"
-        }
+        // onRegistrationSuccess: {                         //Deprecated
+        //     console.log("Registration Success")
+        //     _load.source = "Login.qml"
+        // }
 
-        onLoginSuccess: {
-            console.log("Login Success")
-            _load.source = ""
-        }
+        // onLoginSuccess: {
+        //     console.log("Login Success")
+        //     _load.source = ""
+        // }
+
+        function onRegistrationSuccess() {
+              console.log("Registration Success")
+              _load.source = "Login.qml"
+          }
+
+          function onLoginSuccess() {
+              console.log("Login Success")
+              _load.source = ""
+          }
     }
 }

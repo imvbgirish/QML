@@ -19,7 +19,7 @@ CalculatorViewModel::~CalculatorViewModel()
 
 QString CalculatorViewModel::evaluateExpression(const QString &expr)
 {
-    qDebug() << Q_FUNC_INFO;
+    qDebug() << Q_FUNC_INFO << "Expession: " << expr;
 
     QString expression = expr;
     expression.replace("÷", "/");
